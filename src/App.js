@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import featureCollection from './featureCollection.json';
 
+
 function App() {
   const center = featureCollection;
 
