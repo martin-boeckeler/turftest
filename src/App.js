@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import featureCollection from './featureCollection.json';
+import centerMedian from '@turf/center-median';
 
 function App() {
-  const center = featureCollection;
+  const center = centerMedian(featureCollection);
 
   return (
     <div className="App">
