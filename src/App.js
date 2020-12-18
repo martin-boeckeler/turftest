@@ -3,7 +3,6 @@ import './App.css';
 import featureCollection from './featureCollection.json';
 import {centerMedian} from '@turf/turf';
 
-
 function App() {
   const center = centerMedian(featureCollection);
 
