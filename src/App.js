@@ -1,15 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import featureCollection from './featureCollection.json';
 
 function App() {
-  const center = 0;
+  const center = featureCollection;
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          center {center}
+          center: {JSON.stringify(center)}
         </p>
         <a
           className="App-link"
